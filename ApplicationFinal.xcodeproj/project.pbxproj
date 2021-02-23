@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8325288825E41D4F009245B7 /* Warning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8325288725E41D4F009245B7 /* Warning.swift */; };
+		83735A4425E5195200679041 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A4325E5195200679041 /* GameViewController.swift */; };
+		83735A4B25E52C7C00679041 /* ExtraCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A4A25E52C7C00679041 /* ExtraCode.swift */; };
+		83735A5025E54DCC00679041 /* UnderAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A4F25E54DCC00679041 /* UnderAgeViewController.swift */; };
 		83CD3E7C25E3C9620098D81A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E7B25E3C9620098D81A /* AppDelegate.swift */; };
 		83CD3E7E25E3C9620098D81A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E7D25E3C9620098D81A /* SceneDelegate.swift */; };
-		83CD3E8025E3C9620098D81A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E7F25E3C9620098D81A /* ViewController.swift */; };
+		83CD3E8025E3C9620098D81A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E7F25E3C9620098D81A /* LoginViewController.swift */; };
 		83CD3E8325E3C9620098D81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8125E3C9620098D81A /* Main.storyboard */; };
 		83CD3E8525E3C9630098D81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8425E3C9630098D81A /* Assets.xcassets */; };
 		83CD3E8825E3C9630098D81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8625E3C9630098D81A /* LaunchScreen.storyboard */; };
+		83CD3E9F25E3D8950098D81A /* String .swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E9E25E3D8950098D81A /* String .swift */; };
+		83CD3EA325E3D9220098D81A /* UIAlertControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3EA225E3D9220098D81A /* UIAlertControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8325288725E41D4F009245B7 /* Warning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warning.swift; sourceTree = "<group>"; };
+		83735A4325E5195200679041 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83735A4A25E52C7C00679041 /* ExtraCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraCode.swift; sourceTree = "<group>"; };
+		83735A4F25E54DCC00679041 /* UnderAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderAgeViewController.swift; sourceTree = "<group>"; };
 		83CD3E7825E3C9620098D81A /* ApplicationFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CD3E7B25E3C9620098D81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83CD3E7D25E3C9620098D81A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83CD3E7F25E3C9620098D81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83CD3E7F25E3C9620098D81A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		83CD3E8225E3C9620098D81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83CD3E8425E3C9630098D81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83CD3E8725E3C9630098D81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CD3E8925E3C9630098D81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CD3E9E25E3D8950098D81A /* String .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String .swift"; sourceTree = "<group>"; };
+		83CD3EA225E3D9220098D81A /* UIAlertControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8325288A25E4220D009245B7 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				83735A4A25E52C7C00679041 /* ExtraCode.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
 		83CD3E6F25E3C9620098D81A = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +76,53 @@
 		83CD3E7A25E3C9620098D81A /* ApplicationFinal */ = {
 			isa = PBXGroup;
 			children = (
-				83CD3E7B25E3C9620098D81A /* AppDelegate.swift */,
-				83CD3E7D25E3C9620098D81A /* SceneDelegate.swift */,
-				83CD3E7F25E3C9620098D81A /* ViewController.swift */,
-				83CD3E8125E3C9620098D81A /* Main.storyboard */,
+				8325288A25E4220D009245B7 /* Extra */,
+				83CD3E9D25E3D85F0098D81A /* extension */,
+				83CD3E9425E3C9D80098D81A /* delegate */,
+				83CD3E9525E3CA000098D81A /* Controller */,
+				83CD3E9625E3CA160098D81A /* View */,
 				83CD3E8425E3C9630098D81A /* Assets.xcassets */,
-				83CD3E8625E3C9630098D81A /* LaunchScreen.storyboard */,
 				83CD3E8925E3C9630098D81A /* Info.plist */,
 			);
 			path = ApplicationFinal;
+			sourceTree = "<group>";
+		};
+		83CD3E9425E3C9D80098D81A /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				83CD3E7B25E3C9620098D81A /* AppDelegate.swift */,
+				83CD3E7D25E3C9620098D81A /* SceneDelegate.swift */,
+			);
+			path = delegate;
+			sourceTree = "<group>";
+		};
+		83CD3E9525E3CA000098D81A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83CD3E7F25E3C9620098D81A /* LoginViewController.swift */,
+				83735A4325E5195200679041 /* GameViewController.swift */,
+				83735A4F25E54DCC00679041 /* UnderAgeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83CD3E9625E3CA160098D81A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83CD3E8125E3C9620098D81A /* Main.storyboard */,
+				83CD3E8625E3C9630098D81A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83CD3E9D25E3D85F0098D81A /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				83CD3E9E25E3D8950098D81A /* String .swift */,
+				83CD3EA225E3D9220098D81A /* UIAlertControll.swift */,
+				8325288725E41D4F009245B7 /* Warning.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +195,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CD3E8025E3C9620098D81A /* ViewController.swift in Sources */,
+				83CD3E8025E3C9620098D81A /* LoginViewController.swift in Sources */,
+				83735A4B25E52C7C00679041 /* ExtraCode.swift in Sources */,
+				8325288825E41D4F009245B7 /* Warning.swift in Sources */,
+				83CD3E9F25E3D8950098D81A /* String .swift in Sources */,
 				83CD3E7C25E3C9620098D81A /* AppDelegate.swift in Sources */,
 				83CD3E7E25E3C9620098D81A /* SceneDelegate.swift in Sources */,
+				83CD3EA325E3D9220098D81A /* UIAlertControll.swift in Sources */,
+				83735A5025E54DCC00679041 /* UnderAgeViewController.swift in Sources */,
+				83735A4425E5195200679041 /* GameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamps.ApplicationFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamps.ApplicationFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
