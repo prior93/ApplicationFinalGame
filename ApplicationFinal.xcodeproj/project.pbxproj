@@ -17,7 +17,7 @@
 		83CD3E8325E3C9620098D81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8125E3C9620098D81A /* Main.storyboard */; };
 		83CD3E8525E3C9630098D81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8425E3C9630098D81A /* Assets.xcassets */; };
 		83CD3E8825E3C9630098D81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD3E8625E3C9630098D81A /* LaunchScreen.storyboard */; };
-		83CD3E9F25E3D8950098D81A /* String .swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E9E25E3D8950098D81A /* String .swift */; };
+		83CD3E9F25E3D8950098D81A /* PasswordandEmail .swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3E9E25E3D8950098D81A /* PasswordandEmail .swift */; };
 		83CD3EA325E3D9220098D81A /* UIAlertControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD3EA225E3D9220098D81A /* UIAlertControll.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		83CD3E8425E3C9630098D81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83CD3E8725E3C9630098D81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CD3E8925E3C9630098D81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83CD3E9E25E3D8950098D81A /* String .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String .swift"; sourceTree = "<group>"; };
+		83CD3E9E25E3D8950098D81A /* PasswordandEmail .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordandEmail .swift"; sourceTree = "<group>"; };
 		83CD3EA225E3D9220098D81A /* UIAlertControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +118,7 @@
 		83CD3E9D25E3D85F0098D81A /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				83CD3E9E25E3D8950098D81A /* String .swift */,
+				83CD3E9E25E3D8950098D81A /* PasswordandEmail .swift */,
 				83CD3EA225E3D9220098D81A /* UIAlertControll.swift */,
 				8325288725E41D4F009245B7 /* Warning.swift */,
 			);
@@ -198,7 +198,7 @@
 				83CD3E8025E3C9620098D81A /* LoginViewController.swift in Sources */,
 				83735A4B25E52C7C00679041 /* ExtraCode.swift in Sources */,
 				8325288825E41D4F009245B7 /* Warning.swift in Sources */,
-				83CD3E9F25E3D8950098D81A /* String .swift in Sources */,
+				83CD3E9F25E3D8950098D81A /* PasswordandEmail .swift in Sources */,
 				83CD3E7C25E3C9620098D81A /* AppDelegate.swift in Sources */,
 				83CD3E7E25E3C9620098D81A /* SceneDelegate.swift in Sources */,
 				83CD3EA325E3D9220098D81A /* UIAlertControll.swift in Sources */,
